@@ -1,14 +1,24 @@
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
-.header-container {
+.header-container,
+.top-container {
+	display: flex;
+	justify-content: center;
+	background-color: #1f2937;
+}
+
+.header-flex-container,
+.top-flex-container {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	background-color: #1f2937;
+	justify-content: space-between;
+	width: 1400px;
 	padding: 12px;
 	margin: 0;
 }
@@ -26,4 +36,23 @@ body {
 
 .link {
 	color: #E5E7EB ;
+}
+
+.top-container {
+	
+}
+
+.left-top {
+	display: flex;
+	flex-direction: column;
+	background-color: #1f2937;
+	color: white;
+	width: 300px;
+	height: 100px;
+}
+
+.right-top {
+	background-color: brown;
+	width: 300px;
+	height: 100px;
 }
