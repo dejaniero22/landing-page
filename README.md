@@ -1,1 +1,1 @@
-# landing-page
+12/21/23: I created the header for this webpage using 2 div containers. One of these containers is for the header logo and the other is for the header links. The links are within their own container. I used flexbox to style this header. The alignment and justification where done with flex as well. One thing that I have never done before is linking google fonts to a page. This was something that is useful and not too difficult to do, however I will need to learn more about it moving forward.
