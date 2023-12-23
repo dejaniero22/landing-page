@@ -9,10 +9,11 @@ body {
 	flex-direction: column;
 }
 
-nav,
-.container-1 {
+/* Header */
+
+nav {
 	display: flex;
-	padding: 0 8%;
+	padding: 0 12%;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #1f2937;
@@ -26,12 +27,18 @@ nav img {
 .nav-links {
 	flex: 1;
 	text-align: right;
+	align-items: center;
+}
+
+.nav-links ul {
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
 }
 
 .nav-links ul li {
 	list-style: none;
-	display: inline-block;
-	padding: 8px 12px;
+	display: inline-block
 	position: relative;
 }
 
@@ -55,23 +62,38 @@ nav img {
 	width: 100%;
 }
 
-.left-top {
-	flex: 1;
+/* Section 1 */
+
+.hero-top ul {
+	list-style: none;
 	display: flex;
-	flex-direction: column;
+	padding: 4% 12% 6%;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4%;
 	background-color: #1f2937;
-	width: 300px;
 }
 
-.list-top-1 {
-	font-size: 48px;
-	font-weight: 1000;
+.hero-top ul li {
+	flex: 1;
+}
+
+.hero-top ul li img {
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+}
+
+.hero-top ul li h1 {
 	color: #f9faf8;
+	font-size: 48px;
+	font-weight: 900;
 }
 
-.list-center-1 {
+.hero-top ul li p {
+	color: #e5e7eb;
 	font-size: 18px;
-	color: #E5E7EB;
+	padding: 10px 0;
 }
 
 .list-button-1 {
@@ -84,8 +106,5 @@ nav img {
 	font-weight: bold;
 }
 
-.right-top {
-	flex: 1;
-	background-color: brown;
-	width: 300px;
-}
+/* Section 2 */
+
