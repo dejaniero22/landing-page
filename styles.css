@@ -136,7 +136,7 @@ nav img {
 }
 
 .placeholder div {
-	flex: 2;
+	flex: 1;
 	border: 3px solid #3882f6;
 	border-radius: 10px;
 	margin: 5px;
@@ -214,4 +214,17 @@ nav img {
 	border-radius: 5px;
 	padding: 2% 6%;
 	font-weight: bold;
+}
+
+/* Footer */
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f2937;
+	padding: 1%;
+}
+
+.footer-container div p {
+	color: white;
 }
